@@ -356,7 +356,7 @@ def on_button_clicked(b):
     clear_output()
     if i <len(Sc):
         display(Sc[i])
-        if i <len(St)-1:
+        if i <len(Sс)-1:
             display(button)
     i = i+1
 
