@@ -7,7 +7,7 @@ This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
-Ïåðâûì äåëîì íåáîëüøàÿ äåìîíñòðàöèÿ "Ïðîãðàììèðîâàíèÿ â R"
+Первым делом небольшая демонстрация "Программирования в R"
 
 ```{r}
 square <- function(x, args = c(1, 2, 1)){
@@ -37,7 +37,7 @@ library(ggplot2)
 ```
 ñ÷èòûâàåì csv ôàéë
 ```{r}
-df <- read.csv(file = 'C:/Users/vadim/Desktop/Data_Science/project_2/SuicideChina.csv')
+df <- read.csv(file = 'Путь к файлу SuicideChina.csv')
 df <- select(df,-c(1))
 ```
 
